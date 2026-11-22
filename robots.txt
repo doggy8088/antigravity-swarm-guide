@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://antigravity-swarm-guide.gh.miniasp.com/sitemap.xml
