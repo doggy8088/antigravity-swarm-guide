@@ -333,11 +333,12 @@ details.more summary:hover{color:var(--honey-text)}
 @media (max-width:560px){.src th,.src td{display:block;width:auto;padding:.15rem 0}.src th{padding-top:.7rem;border-top:1px solid var(--line)}.src td{border-top:0}.src tr:first-child th{border-top:0}}
 
 /* footer */
-footer{border-top:1px solid var(--line);margin-top:1rem;padding:2rem 0 3.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;color:var(--ink-2);font-size:.92rem}
+footer{border-top:1px solid var(--line);margin-top:1rem;padding:2rem 0 3.5rem;color:var(--ink-2);font-size:.92rem}
+.footer-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem 1rem}
 footer .brand{display:flex;align-items:center;gap:.6rem}
 footer img{width:26px;height:26px}
-.footer-credit{flex:1 1 280px}
-.footer-credit p{margin:.45rem 0}
+footer p{margin:0}
+.footer-note{margin-block-start:.75rem}
 
 /* responsive shell */
 @media (max-width:980px){
@@ -649,11 +650,14 @@ footer img{width:26px;height:26px}
 </section>
 
 <footer>
-  <div class="footer-credit">
+  <div class="footer-row">
     <p class="brand"><img class="pixel" src="assets/logo.svg" alt="" width="26" height="26"><span>© 2026 <a href="https://www.facebook.com/will.fans/" target="_blank" rel="noopener noreferrer">Will 保哥</a> · <a href="LICENSE">MIT 授權</a></span></p>
-    <p>本指南以 <a href="https://antigravity.google/">Google Antigravity</a> 內建的 Swarm 外掛為參考。這是非官方指南，Antigravity 名稱及 Swarm 標誌歸各自權利人所有。</p>
+    <a href="#top">回到頁首</a>
   </div>
-  <a href="#top">回到頁首</a>
+  <div class="footer-note">
+    <p><a href="https://antigravity.google/">Google Antigravity</a> Swarm 非官方指南</p>
+    <p>產品名稱與標誌歸各權利人所有。</p>
+  </div>
 </footer>
 </main>
 </div>
